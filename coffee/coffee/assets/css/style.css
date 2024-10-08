@@ -1,0 +1,513 @@
+* {
+  box-sizing: border-box; }
+
+/* header */
+header {
+  z-index: 2;
+  background-color: white;
+  padding: 1% 3%;
+  position: sticky;
+  top: 0%; }
+
+.nav-a {
+  white-space: nowrap;
+  transition: 0.3s;
+  padding: 0% 2%;
+  text-align: right;
+  margin: auto;
+  width: 60%;
+  flex-grow: 2; }
+
+.nav-a .icc {
+  margin-left: 5%; }
+
+.nav-a a {
+  font-family: YkanBankFaNum;
+  font-weight: 500;
+  padding: 2% 2.04%;
+  text-decoration: unset;
+  color: #1e3932;
+  font-size: 20px; }
+
+.nav-a a:hover {
+  color: #00754a; }
+
+.logo {
+  display: inline-block;
+  width: 10%;
+  height: 10%; }
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0; }
+
+.fas {
+  color: white; }
+
+.icc {
+  flex-grow: 1; }
+
+.icc img {
+  width: 2%;
+  height: 1%; }
+
+/* end header */
+/*home*/
+.item-home {
+  background-color: #1e3932;
+  border: 5px solid #fff;
+  border-radius: 20px; }
+  .item-home .text-home {
+    text-align: center;
+    padding: 2%; }
+    .item-home .text-home h3 {
+      padding-bottom: 2%;
+      font-family: YkanBankFaNum;
+      font-weight: 700;
+      color: #00754a;
+      font-size: 30px; }
+    .item-home .text-home h1 {
+      font-family: YkanBankFaNum;
+      font-weight: 800;
+      color: white;
+      font-size: 60px; }
+    .item-home .text-home p {
+      font-family: YkanBankFaNum;
+      font-weight: 500;
+      margin: 3%;
+      color: white; }
+    .item-home .text-home button {
+      font-family: YkanBankFaNum;
+      font-weight: 500;
+      padding: 1% 2%;
+      background-color: #00754a;
+      border: 5px solid #00754a;
+      border-radius: 20px;
+      color: white;
+      font-family: YkanBankFaNum;
+      font-size: 16px;
+      font-weight: 600; }
+      .item-home .text-home button:hover {
+        background-color: unset;
+        color: #00754a; }
+    .item-home .text-home span {
+      font-family: YkanBankFaNum;
+      font-weight: 500;
+      font-size: 10px;
+      color: #c0bbbb; }
+
+/*end home*/
+/* about */
+.item-half {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.text-about {
+  background-color: #00754a;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  padding: 3% 13%;
+  text-align: center;
+  padding-bottom: 3%; }
+
+.img-about {
+  background-color: #00754a;
+  border: 5px solid #fff;
+  border-radius: 20px; }
+
+.imggg {
+  padding-right: 10%;
+  text-align: center;
+  position: sticky;
+  object-fit: contain;
+  height: 100%;
+  width: 90%;
+  margin: 0%; }
+
+.text-about h2 {
+  font-family: YkanBankFaNum;
+  font-weight: 700;
+  color: white;
+  font-size: 30px; }
+
+.text-about p {
+  font-family: YkanBankFaNum;
+  color: white; }
+
+.text-about button {
+  font-family: YkanBankFaNum;
+  font-weight: 500;
+  padding: 1% 2%;
+  background-color: #1e3932;
+  border: 5px solid #1e3932;
+  border-radius: 20px;
+  color: white;
+  font-family: YkanBankFaNum;
+  font-size: 16px;
+  font-weight: 600; }
+
+.text-about button:hover {
+  background-color: unset;
+  color: #1e3932; }
+
+/* end about */
+/* time & address*/
+.timee {
+  background-color: #1e3932 !important;
+  border: 5px solid #fff;
+  border-radius: 20px; }
+
+.t-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.dtail {
+  text-align: center;
+  padding: 2%; }
+
+.dtail h3 {
+  font-family: YkanBankFaNum;
+  font-weight: 700;
+  color: white;
+  font-size: 20px; }
+
+.dtail p {
+  font-family: YkanBankFaNum;
+  font-weight: 500;
+  color: #c0bbbb; }
+
+.dtail span {
+  color: #00754a;
+  font-size: 30px; }
+
+.icoon {
+  font-size: 50px; }
+
+.icoon span {
+  color: white; }
+
+/* end time & address */
+/* menu */
+#menu {
+  padding: 1%; }
+
+.item-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.text-menu {
+  text-align: center; }
+
+.text-menu h2 {
+  font-family: YkanBankFaNum;
+  font-weight: 700;
+  color: #1e3932;
+  font-size: 30px; }
+
+.text-menu p {
+  font-family: YkanBankFaNum;
+  font-weight: 500;
+  color: #1e3932; }
+
+.textt h3 {
+  font-family: YkanBankFaNum;
+  font-weight: 700;
+  color: #1e3932;
+  font-size: 30px; }
+
+.menuu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.textt p {
+  font-family: YkanBankFaNum;
+  font-weight: 500; }
+
+.textt p span {
+  color: #00754a; }
+
+.textt button {
+  padding: 2% 4%;
+  background-color: #1e3932;
+  border: 5px solid #1e3932;
+  border-radius: 20px;
+  color: white;
+  font-family: YkanBankFaNum;
+  font-size: 16px;
+  font-weight: 600; }
+
+.textt button:hover {
+  background-color: unset;
+  color: #1e3932; }
+
+.menu-entry .imgg {
+  display: block;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 5px solid #fff;
+  border-radius: 10%; }
+
+.bt-menu {
+  margin: auto;
+  width: 22%;
+  padding: 3%; }
+
+.bt-menu button {
+  padding: 5% 7%;
+  background-color: #1e3932;
+  border: 5px solid #1e3932;
+  border-radius: 20px;
+  color: white;
+  font-family: YkanBankFaNum;
+  font-size: 16px;
+  font-weight: 600; }
+
+.bt-menu button:hover {
+  background-color: unset;
+  color: #1e3932; }
+
+/*end menu */
+/* service*/
+.item-servi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.servi {
+  padding: 2%;
+  text-align: center; }
+  .servi .icon {
+    font-size: 30px; }
+    .servi .icon span {
+      color: #fff; }
+  .servi h3 {
+    margin: 0%;
+    font-family: YkanBankFaNum;
+    font-weight: 700;
+    color: white;
+    font-size: 30px; }
+  .servi p {
+    font-family: YkanBankFaNum;
+    font-weight: 500;
+    color: white; }
+
+#services {
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background-color: #00754a; }
+
+.home {
+  margin: auto;
+  padding: 6%;
+  text-align: center; }
+
+.home h3 {
+  padding-bottom: 2%;
+  font-family: YkanBankFaNum;
+  font-weight: 700;
+  color: #00754a;
+  font-size: 30px; }
+
+.home h1 {
+  font-family: YkanBankFaNum;
+  font-weight: 800;
+  color: white;
+  font-size: 60px;
+  font-weight: 700px; }
+
+.home p {
+  font-family: YkanBankFaNum;
+  font-weight: 500;
+  margin: 3%;
+  color: white; }
+
+.home button {
+  font-family: YkanBankFaNum;
+  font-weight: 500;
+  padding: 1% 2%;
+  background-color: #00754a;
+  border: px solid #00754a;
+  border-radius: 20px;
+  color: white;
+  font-family: YkanBankFaNum;
+  font-size: 16px;
+  font-weight: 600; }
+
+.home button:hover {
+  background-color: unset;
+  color: #00754a; }
+
+  form{
+    font-family:YkanBankFaNum;
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:5%;
+  }
+
+  h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  label{
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 14px;
+  }
+
+  input{outline-color: #00754a;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+  }
+
+  .last_button{
+    width: 30%;
+    padding: 10px;
+    background-color:#00754a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: YkanBankFaNum;
+  }
+
+  button:hover{
+    background-color: #06210a;
+  }
+
+
+@media (max-width: 769px) {
+  .menu-entry .imgg {
+    display: block;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px solid #fff;
+    border-radius: 10%; }
+  .bt-menu {
+    margin: auto;
+    width: 37%;
+    padding: 3%; }
+  .text-about {
+    width: 75%; }
+    .text-about h3 {
+      font-size: 20px; }
+    .text-about p {
+      font-size: 10px; }
+    .text-about button {
+      font-size: 10px; }
+  .img-about {
+    width: 100%; }
+  .dtail .icon span {
+    font-size: 20px; }
+  .dtail h3 {
+    font-size: 20px; }
+  .dtail p {
+    font-size: 10px; }
+  .textt h3 {
+    font-size: 20px; }
+  .textt p span {
+    font-size: 10px; }
+  .textt button {
+    font-size: 10px; }
+  .bt-menu {
+    width: 26%; }
+    .bt-menu button {
+      font-size: 10px; }
+  .servi .icon span {
+    font-size: 20px; }
+  .servi h3 {
+    font-size: 20px; }
+  .servi p {
+    font-size: 10px; } }
+
+@media (max-width: 426px) {
+  .servi .icon span {
+    font-size: 15px; }
+  .servi h3 {
+    font-size: 15px; }
+  .servi p {
+    font-size: 5px; }
+  .dtail .icon span {
+    font-size: 15px; }
+  .dtail h3 {
+    font-size: 10px; }
+  .dtail p {
+    font-size: 8px; }
+  .t-work {
+    flex-direction: column; }
+  .item-servi {
+    flex-direction: column; }
+  .menuu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .text-menu h2 {
+    font-size: 20px; }
+  .text-menu p {
+    font-size: 10px; }
+  .menu-val {
+    margin: auto;
+    width: 75%; }
+    .menu-val .text-menu {
+      margin: auto;
+      width: 50%; }
+  .textt h3 {
+    font-size: 15px; }
+  .textt p span {
+    font-size: 10px; }
+  .textt button {
+    font-size: 10px; }
+  .bt-menu {
+    width: 42%; }
+    .bt-menu button {
+      font-size: 10px; }
+  .nav-a a {
+    font-family: YkanBankFaNum;
+    padding: 2% 2.04%;
+    text-decoration: unset;
+    color: #1e3932;
+    font-size: 10px; }
+  .text-home h3 {
+    font-size: 15px; }
+  .text-home h1 {
+    font-size: 30px; }
+  .text-home p {
+    font-size: 10px; }
+  .text-home button {
+    font-size: 10px; }
+    .text-home button span {
+      font-size: 8px; }
+  .item-half {
+    flex-direction: column; }
+    .item-half .text-about {
+      width: 100%; }
+    .item-half .img-about {
+      display: none; } }
